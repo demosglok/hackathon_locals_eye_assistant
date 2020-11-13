@@ -1,0 +1,29 @@
+{
+  "name": "inass-backend",
+  "version": "1.0.0",
+  "description": "connection to google and other apis for InAss app on security hackathon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demosglok/inass.git"
+  },
+  "keywords": [
+    "nodejs",
+    "blind",
+    "assistant"
+  ],
+  "author": "Dmytro Selin",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/demosglok/inass/issues"
+  },
+  "homepage": "https://github.com/demosglok/inass#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+h1, h3 {
+    text-align: center;
+}
+
+.gesturezone {
+    border: 2px solid blue;
+    background-color: cornflowerblue;
+
+    margin: 20px;
+    height: calc(100vh - 430px);
+}
+
+.fullheight {
+    height: 100vh;
+}
+.status {
+    height: 240px;
+    background-color: cornflowerblue;
+    margin-top: 20px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.buttons {
+    display: flex;
+    justify-content:space-between;
+    padding: 0 20px;
+}
+.buttons button {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid darkslategrey;
+    border-radius: 50%;
+    outline: none;
+}
+.buttons .alarm_button {
+    background-color: firebrick;
+}
+.buttons .text_button {
+    background-color: yellow;;
+}
+.buttons .look_button {
+    background-color: forestgreen;
+}
+
+.alarm_overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20vh 30px 10vh 30px;
+    background-color: lightpink;
+    z-index: 2;
+    display: none;
+}
+.alarm_overlay h2, .alarm_overlay h3
+{
+    margin-top: 50px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru_RU">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>eyeSsistant - помощник для зрения</title>
+    <link crossorigin="anonymous" media="all"  rel="stylesheet" href="main.css" />
+
+
+  <script crossorigin="anonymous" defer="defer"  type="application/javascript" src="script.js"></script>
+  </head>
+
+  <body class="fullheight">
+    <h1>Умный помощник eyeSsistant от команды Ward</h1>
+    <hr/>
+    <div class="buttons">
+        <!--button id="alarm_button" class="alarm_button">SOS</button-->
+        <button id="text_button" class="text_button">Текст</button>
+        <button id="look_button" class="look_button">Объекты</button>
+    </div>
+    <!--h3>Зона для управления жестами</h3>
+    <div class="gesturezone" id="gesturezone" role="region" aria-label="Зона свайпов"></div-->
+    <h3>Результат</h3>
+    <div class="status" id="status" role="region" aria-label="Результат"></div>
+    <div class="alarm_overlay" id="alarm_overlay">
+        <h1>Внимание, активирован режим SOS</h1>
+        <h3>Отключите в течении <span id="alarm_time_left">10</span> секунд или будет послан сигнал тревоги</h3>
+        <h3> Нажмите в любую точку экрана </h3>
+    </div>
+  </body>
+</html>
